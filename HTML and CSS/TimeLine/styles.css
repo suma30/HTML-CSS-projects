@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right, yellow, lightyellow);
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    color: black;
+    text-align: center;
+  }
+  ol li {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    font-weight: 600;
+  }
+  div {
+    background-image: linear-gradient(to bottom, #ec168c, #3c00ff);
+    border: 1.75px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+  }
+  

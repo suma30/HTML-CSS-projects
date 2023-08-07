@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .menu {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(45deg, pink, violet, lightblue);
+  }
+  
+  .food {
+    margin: 20px;
+    padding: 30px;
+    border: 2px dashed black;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-family: cursive;
+    font-size: large;
+  }
+  ul b {
+    margin: 30px;
+  }
+  #heading {
+    margin: 10px;
+    background-color: lightgreen;
+  }
+  
+  .food:nth-child(2) {
+    align-self: start;
+  }
+  
+  .food:nth-child(3) {
+    align-self: center;
+  }
+  
+  .food:nth-child(4) {
+    align-self: end;
+  }
+  
+  @media (max-width: 400px) {
+    .food {
+      align-self: center;
+      background-color: #fff;
+    }
+  }
+  
